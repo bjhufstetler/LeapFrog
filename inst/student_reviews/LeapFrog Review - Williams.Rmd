@@ -1,0 +1,56 @@
+---
+title: "LeapFrog Review: Williams"
+output: html_document
+---
+
+**Accuracy**
+    
+  - Are the results accurate?
+  
+      Yes, to my knowledge they seem accurate but I did not take the Huerstics course.
+      
+  - Is it clear how the results were computed?
+  
+    The  results are produced using the LF function and plots originate from the object returned by the GetData function. 
+      
+      
+**Compilation**
+    
+  - Did the analytic work? (i.e. install correctly, startup
+        correctly)
+        
+    Yes, the package installed with no issues. The logo appearing after attaching the package is a nice touch.
+        
+  - Were errors encountered when executing code according to the
+        documentation?
+        
+      No errors were encountered.
+      
+
+      
+
+**Ease of use**
+    
+  - Is it clear how to use the analytic? (i.e. is the documentation
+        clear)
+      +	 Function documentation is clear
+      +  Documentation exists for every accessible function 
+      +  Datasets are included to ease testing
+      +  The documentation on the readme on gitHub clearly explains how to use the package.
+      +  The LF function documentation should detail what the function returns. I know it is a collection. Essentially, I am looking from documentation on the LeapFrog class object
+      +	 Package level documentation, accessible via ?LeapFrog has not been changed from default 
+
+  
+
+        
+  - Are the visualizations/plots interpretable?
+      + The first plot should have a title. 
+      +  In the Iteration History plot, is the tour length the number of arcs in the opitmal or near optimal solution provided by LeapFrog? Or is it a distance measure?
+      +  Are the units of time in seconds?
+      +  What is the dotted green line showing?
+      
+**Final Grade**
+
+  - Please provide a final grade
+  
+    Outstanding package. I would include a vignette that contains the theory, problem formulation, methodology and solution but the average user may not care about these details. Essentially, direct end users to the journal article you are publishing about this heuristic.  Additionally, somewhere in the documentation, I would like to see more information about the plots. The figure with the connected arcs is probably very informative but it does not stand alone. 49/50
